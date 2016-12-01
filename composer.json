@@ -21,6 +21,6 @@
     "require-dev": {
     },
     "autoload": {
-        "psr-0": {"Lib\\": "pedra/phtml/"}
+        "psr-0": {"Lib\\": "/"}
     }
 }
