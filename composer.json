@@ -21,6 +21,6 @@
     "require-dev": {
     },
     "autoload": {
-        "psr-4": {"Lib\\Html\\": ""}
+        "psr-0": {"Lib": "/"}
     }
 }
