@@ -1,0 +1,26 @@
+{
+    "name": "pedra/phtml",
+    "description": "Html Template Class",
+    "keywords": ["html", "template","xtag"],
+    "license": "MIT",
+    "type": "library",
+    "homepage": "http://paulorocha.tk/github/tiga",
+    "authors": [{
+        "name": "Bill Rocha",
+        "email": "prbr@ymail.com"
+    }],
+    "config": {
+        "preferred-install": "dist"
+    },
+    "archive": {
+        "exclude": ["/doc", "/*.json", "/.git", "/*.md"]
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {"Lib\\Html\\": ""}
+    }
+}
