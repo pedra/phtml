@@ -62,8 +62,8 @@ class Html
             foreach($config as $k=>$v){
                 $this->{$k} = $v;
             }
-        } elseif(method_exists('Config\Neos\Html', 'getParams')) {
-            foreach((new \Config\Neos\Html)->getParams() as $k=>$v){
+        } elseif(method_exists('Config\Html', 'getParams')) {
+            foreach((new \Config\Html)->getParams() as $k=>$v){
                 $this->{$k} = $v;
             }
         }
